@@ -111,7 +111,3 @@ debug = 0
 # Required by craft-pdf: the backend rejects writers that failed during unwinding.
 [patch.crates-io]
 krilla = { git = "https://github.com/storytold/craft-libs", rev = "17744430be327d0257496a6a31c8d38fe20a6756" }
-egui = { git = "https://github.com/emilk/egui", rev = "6d518fc" }
-egui-winit = { git = "https://github.com/emilk/egui", rev = "6d518fc" }
-eframe = { git = "https://github.com/emilk/egui", rev = "6d518fc" }
-winit = { git = "<fork/branch yang dipakai egui>", rev = "<rev>" }
